@@ -1,0 +1,62 @@
+body {
+  background-color: #bcb9d8;
+  zoom: 80%;
+}
+.img {
+  float: right;
+  height: 130px;
+  width: 130px;
+  padding-right: 30px;
+  padding-top: 10px;
+  transition: 0.5s;
+}
+img:hover {
+  transform: scale(1.2);
+}
+h1 {
+  font-size: 45px;
+  font-family: monospace;
+}
+figure {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 100 px;
+  margin: 10px; /*поменять если картинки не ровные*/
+}
+.gallery {
+  border: 1px solid black;
+  background-color: hotpink;
+  padding: 5px;
+  width: 242px;
+  height: 357px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 3px;
+  margin-right: 10px;
+}
+.tex {
+  margin-top: -5px;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+}
+
+.book {
+  display: flex; /* Включаем Flexbox */
+  align-items: flex-start; /* Выравниваем элементы по верхней границе */
+}
+
+.book:nth-child(2) {
+  /* Выбираем второй элемент .book */
+  flex-direction: row-reverse; /* Меняем порядок элементов на обратный */
+}
+.add-to-cart {
+  background-color: #78acc1;
+  padding: 30px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart-button:hover {
+  background-color: #487c91;
+  color: white;
+}

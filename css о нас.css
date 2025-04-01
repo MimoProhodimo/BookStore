@@ -1,0 +1,152 @@
+body {
+  background-color: #bcb9d8;
+  zoom: 80%;
+}
+.topnav {
+  background-color: #61678b;
+  overflow: hidden;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 5px 10px black;
+  position: relative;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2; /*шрифт*/
+  text-align: center;
+  padding: 60px 60px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #dedeea; /*плашки когда наводишь*/
+  color: black; /* цвет в плашке когда наводишь*/
+}
+
+.topnav a.active {
+  background-color: #78acc1;
+  color: white;
+}
+
+.img {
+  float: right;
+  height: 130px;
+  width: 130px;
+  padding-right: 30px;
+  padding-top: 10px;
+  transition: 0.5s;
+}
+img:hover {
+  transform: scale(1.2);
+}
+.textup {
+  font-size: 40px;
+  float: right;
+  color: #f2f2f2;
+  font-family: monospace;
+  font-style: italic;
+}
+.dropbtn {
+  background-color: #61678b;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  float: left;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #8488d5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {
+  background-color: #dedeea;
+}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+.dropdown:hover .dropbtn {
+  background-color: #98dfd0;
+}
+.imgup {
+  width: 25px;
+  height: 25px;
+}
+.tup {
+  transition: 0.5s;
+}
+.tup:hover {
+  transform: scale(1.2);
+}
+h2 {
+  font-size: 20px;
+}
+video {
+  float: right;
+  margin-top: -250px;
+  margin-right: 300px;
+  width: 500px;
+  height: 500px;
+}
+
+.D {
+  width: 200px;
+  height: 200px;
+}
+.review {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review h4 {
+  margin-top: 0;
+}
+.feedback {
+  border-radius: 10px;
+  text-indent: -30px;
+  padding-top: 30px;
+  padding: 50px;
+  width: 1000px;
+  box-shadow: 3px 2px 5px black;
+  margin-top: 50px;
+  justify-content: left;
+}
+.review-text {
+  font-size: 25px;
+}
+
+.review-rating {
+  font-size: 25px;
+}
+
+.review-timestamp {
+  font-size: 25px;
+}
+.namef {
+  font-size: 25px;
+}

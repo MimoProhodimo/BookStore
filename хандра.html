@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Книги css.css" />
+    <link rel="shortcut icon" href="Лого.png" />
+    <script src="корзина.js" defer></script>
+    <script src="рандом.js" defer></script>
+    <script src="авторизация.js" defer></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="index.html">Дом</a>
+      <div class="dropdown">
+        <a class="active" href="книги.html" class="dropbtn">Книги </a>
+        <div class="dropdown-content">
+          <a href="#" class="tup">
+            <img src="книга.png" class="imgup" />Все книги</a
+          >
+          <a href="грусть.html" class="tup"
+            >Грусть <img src="грусть.png" class="imgup"
+          /></a>
+          <a href="радость.html" class="tup"
+            >Радость <img src="радость.png" class="imgup"
+          /></a>
+          <a href="злость.html" class="tup"
+            >Злость <img src="злость.png" class="imgup"
+          /></a>
+          <a href="хандра.html" class="tup"
+            >Хандра <img src="хандра.png" class="imgup"
+          /></a>
+          <a href="тревожность.html" class="tup"
+            >Тревожность <img src="тревожность.png" class="imgup"
+          /></a>
+          <a href="страх.html" class="tup"
+            >Страх <img src="страх.png" class="imgup"
+          /></a>
+        </div>
+      </div>
+      <a href="Контакты.html">Контакты</a>
+      <a href="О нас.html">О нас</a>
+      <img class="img" src="Лого.png" />
+      <p class="textup">Кот в мешке</p>
+      <a href="регестрация.html"> Регистрация </a>
+      <a href="Авторизация.html" id="auth-button"> Авторизация </a>
+      <form>
+        <input type="text" placeholder="Искать здесь..." />
+        <button class="search-button"></button>
+      </form>
+    </div>
+    <h1>Что же почитать при хандре?</h1>
+    <figure>
+      <img src="26.jpg" class="gallery" data-book-id="115" />
+      <div class="overlay">
+        <p class="tdw">
+          Эрленд Лу (р. 1969) - популярный норвежский писатель, сценарист,
+          режиссер театра и кино, лауреат ряда литературных премий. Роман
+          "Наивно. Супер" - самая известная его книга, написанная от лица
+          тридцатилетнего героя, переживающего "кризис середины жизни", -
+          переведен уже на дюжину языков и везде, в том числе и в России,
+          встречен с восторгом. Эта обаятельная и иронично-сдержанная вещь
+          сродни хорошей примитивной, "наивной" живописи - на первый взгляд
+          просто и смешно, всмотришься - умно и трогательно, и детали, при общей
+          кажущейся простоте, выписаны точно и мастерски. Перевод с норвежского
+          И. Стребловой.
+        </p>
+      </div>
+      <img src="27.jfif" class="gallery" data-book-id="116" />
+      <div class="overlay">
+        <p class="tdw">
+          «Больши́е наде́жды» — тринадцатый роман Чарльза Диккенса. Второй из
+          романов Диккенса, после «Дэвида Копперфилда», полностью изложенный от
+          первого лица главного героя. Основной сюжет романа касается жизни и
+          приключений взрослеющего сироты, Филипа Пиррипа по прозвищу «Пип»
+        </p>
+      </div>
+      <img src="28.jfif" class="gallery" data-book-id="117" />
+      <div class="overlay">
+        <p class="tdw">
+          «Полы́нные ска́зки. По́весть о да́вних времена́х» — повесть русского
+          писателя Юрия Коваля, в которой рассказывается о жизни маленькой
+          девочки Лёли и её мамы, учительницы церковно-приходской школы, в
+          глухом мокшанском селе Полыновке в начале XX века.
+        </p>
+      </div>
+      <img src="29.jfif" class="gallery" data-book-id="118" />
+      <div class="overlay">
+        <p class="tdw">
+          В повести писательница рассказывает о судьбе четверых польских
+          ребят-сирот, об их мужестве и доброте. Действие происходит в довоенной
+          буржуазной Польше.
+        </p>
+      </div>
+    </figure>
+    <button class="cart-button">
+      <h3>Корзина (<span id="cart-count">0</span>)</h3>
+    </button>
+    <a href="https://t.me/GouCon" target="_blank" class="telegram-button">
+      <h3>Поддержка</h3>
+    </a>
+    <button id="add-random-book" class="rand-button">
+      <h3>Случайная книга</h3>
+    </button>
+    <a href="Рекоменд.html">
+      <button id="recommended-book"><h3>Рекомендации</h3></button>
+    </a>
+  </body>
+</html>

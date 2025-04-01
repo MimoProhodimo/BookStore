@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Книги css.css" />
+    <link rel="shortcut icon" href="Лого.png" />
+    <script src="корзина.js" defer></script>
+    <script src="рандом.js" defer></script>
+    <script src="авторизация.js" defer></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="index.html">Дом</a>
+      <div class="dropdown">
+        <a class="active" href="книги.html" class="dropbtn">Книги </a>
+        <div class="dropdown-content">
+          <a href="#" class="tup">
+            <img src="книга.png" class="imgup" />Все книги</a
+          >
+          <a href="грусть.html" class="tup"
+            >Грусть <img src="грусть.png" class="imgup"
+          /></a>
+          <a href="радость.html" class="tup"
+            >Радость <img src="радость.png" class="imgup"
+          /></a>
+          <a href="злость.html" class="tup"
+            >Злость <img src="злость.png" class="imgup"
+          /></a>
+          <a href="хандра.html" class="tup"
+            >Хандра <img src="хандра.png" class="imgup"
+          /></a>
+          <a href="тревожность.html" class="tup"
+            >Тревожность <img src="тревожность.png" class="imgup"
+          /></a>
+          <a href="страх.html" class="tup"
+            >Страх <img src="страх.png" class="imgup"
+          /></a>
+        </div>
+      </div>
+      <a href="Контакты.html">Контакты</a>
+      <a href="О нас.html">О нас</a>
+      <img class="img" src="Лого.png" />
+      <p class="textup">Кот в мешке</p>
+      <a href="регестрация.html"> Регистрация </a>
+      <a href="Авторизация.html" id="auth-button"> Авторизация </a>
+      <form>
+        <input type="text" placeholder="Искать здесь..." />
+        <button class="search-button"></button>
+      </form>
+    </div>
+    <h1>Что же почитать когда зол?</h1>
+    <figure>
+      <img src="23.png" class="gallery" data-book-id="112" />
+      <div class="overlay">
+        <p class="tdw">
+          Книга написана для психологов и социологов, но будет интересна людям,
+          изучающим проблему агрессивности в современном мире. Рассмотрены формы
+          поведения, причины возникновения агрессии, половозрастные особенности
+          выражения у детей и подростков, а также влияние современных СМИ и
+          интернета на психологию агрессии.
+        </p>
+      </div>
+      <img src="24.png" class="gallery" data-book-id="113" />
+      <div class="overlay">
+        <p class="tdw">
+          Одна из известных работ лауреата Нобелевской премии по физиологии и
+          медицине. В книге рассматривается вопрос агрессии как инстинкта на
+          примере разных биологических видов – от рыб до человека. Лоренц не
+          утверждает авторитарно, но постепенно подводит читателя к
+          поразительному выводу – без агрессии невозможна глубокая личная
+          привязанность.
+        </p>
+      </div>
+      <img src="25.png" class="gallery" data-book-id="114" />
+      <div class="overlay">
+        <p class="tdw">
+          Книга известного английского зоолога, в которой соотносится поведение
+          животных и людей. Человек давно живёт в огромном зверинце, а не в
+          естественных условиях обитания. Решив вопросы выживания, человек
+          направляет свободную энергию на борьбу с себе подобными. В борьбе за
+          власть и статус люди используют агрессию.
+        </p>
+      </div>
+    </figure>
+    <button class="cart-button">
+      <h3>Корзина (<span id="cart-count">0</span>)</h3>
+    </button>
+    <a href="https://t.me/GouCon" target="_blank" class="telegram-button">
+      <h3>Поддержка</h3>
+    </a>
+    <button id="add-random-book" class="rand-button">
+      <h3>Случайная книга</h3>
+    </button>
+    <a href="Рекоменд.html">
+      <button id="recommended-book"><h3>Рекомендации</h3></button>
+    </a>
+  </body>
+</html>

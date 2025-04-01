@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Личный кабинет</title>
+    <link rel="shortcut icon" href="Лого.png" />
+    <script src="авторизация.js" defer></script>
+    <script src="профиль.js" defer></script>
+    <link rel="stylesheet" href="профиль.css" />
+  </head>
+  <body>
+    <button type="button"><a href="index.html">Назад</a></button>
+    <div class="container">
+      <h1>Личный кабинет</h1>
+<div class="ramka">
+      <div class="user-info">
+        <img
+            class="avatar"
+          id="user-avatar"
+          src="default-avatar.png"
+          alt="Аватар"
+          width="200"
+        />
+        <div class="tex-info">
+        <p class="tex"><strong>Email:</strong> <span id="user-email">Загрузка...</span></p>
+        </div>
+        </div>
+</div>
+<div class="set">
+        <label for="avatar-file">Загрузите аватарку:</label>
+        <input type="file" id="avatar-file" accept="image/*" />
+        <!-- Добавляем accept="image/*" -->
+        <button id="save-avatar">Сохранить аватарку</button>
+      </div>
+</div>
+      <button id="logout-button">Выход</button>
+    </div>
+
+    <script src="auth.js"></script>
+    <script src="profile.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+#cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body {
+  background-color: #bcb9d8;
+}
+
+.cart-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fefefe;
+  width: 800px;
+}
+
+.cart-item h3 {
+  margin: 0;
+}
+
+.cart-item button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #eaf6b9;
+  border: none;
+}
+
+#checkout-button:hover {
+  background-color: #daef82;
+}
+
+#cart-total {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#checkout-button {
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color: #eaf6b9;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+#delivery-form {
+  margin-top: 20px;
+  background-color: #fefefe;
+  padding: 10px;
+  display: none;
+  width: 800px;
+}
+.delivery button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #eaf6b9;
+  border: none;
+}
+
+#delivery-form {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none;
+}
+
+#checkout-form {
+  display: flex;
+}
+
+.form-column {
+  flex: 1; /* Занимает равную долю места */
+  padding-right: 20px; /* Добавляем отступ между столбцами */
+}
+
+#delivery-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#delivery-form input[type="text"],
+#delivery-form input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#delivery-form button[type="button"] {
+  padding: 20px 30px;
+  background-color: #eaf6b9;
+  border: none;
+  cursor: pointer;
+}
+
+#delivery-form button[type="button"]:hover {
+  background-color: #daef82;
+}
+.payment-options {
+  margin-top: 10px;
+}
+
+.payment-options label {
+  display: inline;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="регистрация css.css" />
+    <link rel="shortcut icon" href="Лого.png" />
+  </head>
+  <body>
+    <button type="button"><a href="index.html">Назад</a></button>
+    <form id="registrationForm">
+      <div class="container">
+        <h1>Регистрация</h1>
+        <p>Пожалуйста, заполните эту форму, чтобы создать аккаунт</p>
+        <hr />
+
+        <label for="email"
+          ><b>Email</b>
+          <input
+            type="text"
+            id="email"
+            placeholder="Enter Email"
+            name="email"
+            required
+            pattern=".+@.+\..+"
+            title="Email должен содержать символ '@' и домен.'"
+        /></label>
+
+        <label for="password"
+          ><b>Password</b>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter Password"
+            name="psw"
+            maxlength="15"
+            required
+          />
+        </label>
+
+        <label for="psw-repeat"
+          ><b>Repeat Password</b>
+          <input
+            type="password"
+            id="psw-repeat"
+            placeholder="Repeat Password"
+            name="psw-repeat"
+            maxlength="15"
+            required
+            oninput="this.setCustomValidity(this.value !== document.getElementById('password').value ? 'Пароли не совпадают.' : '');"
+          />
+        </label>
+
+        <label for="phone"
+          ><b>Phone number</b>
+          <input
+            type="tel"
+            id="phone"
+            placeholder="add number"
+            name="Phone"
+            pattern="\+[0-9]{11}"
+            title="Номер телефона должен состоять из 11 цифр и начинаться с +"
+            required
+          />
+        </label>
+
+        <label for="date"
+          ><b>Date of birth</b>
+          <input type="date" id="date" name="date" required
+        /></label>
+
+        <b>First time?</b><br />
+        <label for="yes">
+          Yes
+          <input type="radio" id="yes" name="var" value="yes" required />
+        </label>
+        <label for="no">
+          No
+          <input type="radio" id="no" name="var" value="no" />
+        </label>
+        <hr />
+
+        <p>
+          Создавая аккаунт, вы соглашаетесь с нашими
+          <a href="#">Условиями и конфиденциальностью</a>.
+        </p>
+        <button type="submit" class="registerbtn">Регистрация</button>
+        <div
+          id="registration-error"
+          class="error-message"
+          style="display: none"
+        ></div>
+      </div>
+      <div class="container signin">
+        <p>Уже есть аккаунт? <a href="Авторизация.html">Авторизоваться</a>.</p>
+      </div>
+    </form>
+    <style>
+      .error-message {
+        color: red;
+        margin-top: 5px;
+      }
+    </style>
+    <script src="регестрация.js"></script>
+  </body>
+</html>

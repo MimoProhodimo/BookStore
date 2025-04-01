@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Книги css.css" />
+    <link rel="shortcut icon" href="Лого.png" />
+    <script src="корзина.js" defer></script>
+    <script src="рандом.js" defer></script>
+    <script src="авторизация.js" defer></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="index.html">Дом</a>
+      <div class="dropdown">
+        <a class="active" href="книги.html" class="dropbtn">Книги </a>
+        <div class="dropdown-content">
+          <a href="#" class="tup">
+            <img src="книга.png" class="imgup" />Все книги</a
+          >
+          <a href="грусть.html" class="tup"
+            >Грусть <img src="грусть.png" class="imgup"
+          /></a>
+          <a href="радость.html" class="tup"
+            >Радость <img src="радость.png" class="imgup"
+          /></a>
+          <a href="злость.html" class="tup"
+            >Злость <img src="злость.png" class="imgup"
+          /></a>
+          <a href="хандра.html" class="tup"
+            >Хандра <img src="хандра.png" class="imgup"
+          /></a>
+          <a href="тревожность.html" class="tup"
+            >Тревожность <img src="тревожность.png" class="imgup"
+          /></a>
+          <a href="страх.html" class="tup"
+            >Страх <img src="страх.png" class="imgup"
+          /></a>
+        </div>
+      </div>
+      <a href="Контакты.html">Контакты</a>
+      <a href="О нас.html">О нас</a>
+      <img class="img" src="Лого.png" />
+      <p class="textup">Кот в мешке</p>
+      <a href="регестрация.html"> Регистрация </a>
+      <a href="Авторизация.html" id="auth-button"> Авторизация </a>
+      <form>
+        <input type="text" placeholder="Искать здесь..." />
+        <button class="search-button"></button>
+      </form>
+    </div>
+    <h1>Что же почитать при тревожности?</h1>
+    <figure>
+      <img src="30.jpg" class="gallery" data-book-id="119" />
+      <div class="overlay">
+        <p class="tdw">
+          Вы всю жизнь считали себя лентяем, эгоистом, пессимистом или
+          истериком, обвиняя в своих неудачах отсутствие силы воли и желания
+          «быть нормальным»?
+        </p>
+      </div>
+      <img src="31.jpg" class="gallery" data-book-id="200" />
+      <div class="overlay">
+        <p class="tdw">
+          Все позади: бегство из оккупированной фашистами Эстонии в Германию,
+          поиски заработков по чужим городам, и собственные преступления... Все
+          осмыслено и решено - надо возвращаться. Но вернувшись, он не нашел ни
+          дома, ни родных. О тяжелом прошлом ему поведал друг отца, руководитель
+          банды националистов.
+        </p>
+      </div>
+      <img src="32.jfif" class="gallery" data-book-id="201" />
+      <div class="overlay">
+        <p class="tdw">
+          Вы переживаете, что излишне застенчивы или постоянно во всем
+          сомневаетесь? Вы не можете нормально спать, беспокоясь о своей работе,
+          здоровье или отношениях? Вас мучает страх высоты или начинается
+          паническая атака, когда садитесь за руль автомобиля?
+        </p>
+      </div>
+      <img src="33.jfif" class="gallery" data-book-id="202" />
+      <div class="overlay">
+        <p class="tdw">
+          Я знаю, как победить любой страх и снять стресс. Скажете, смелое
+          заявление? Я терапевт, специализирующийся на лечении тревожных
+          расстройств вот уже 20 лет. К тому же я никогда не была счастливым
+          обладателем спокойной нервной системы.
+        </p>
+      </div>
+      <img src="34.jpg" class="gallery" data-book-id="203" />
+      <div class="overlay">
+        <p class="tdw">
+          От страхов, беспокойства, неприятных воспоминаний, психологических
+          травм и душевных ран можно избавиться, если… быстро двигать глазами из
+          стороны в сторону или нажать на определенную точку на теле.
+          Невероятно? Между тем, сегодня доказано, что методы ТЭС и ДПДГ
+          действительно способны решать многие эмоциональные проблемы.
+        </p>
+      </div>
+    </figure>
+    <button class="cart-button">
+      <h3>Корзина (<span id="cart-count">0</span>)</h3>
+    </button>
+    <a href="https://t.me/GouCon" target="_blank" class="telegram-button">
+      <h3>Поддержка</h3>
+    </a>
+    <button id="add-random-book" class="rand-button">
+      <h3>Случайная книга</h3>
+    </button>
+    <a href="Рекоменд.html">
+      <button id="recommended-book"><h3>Рекомендации</h3></button>
+    </a>
+  </body>
+</html>
