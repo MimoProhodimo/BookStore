@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log("Учетные данные верны. Пользователь:", user);
       localStorage.setItem("loggedInUser", email);
       alert("Вход выполнен успешно!");
-      window.location.href = "Сайт.html";
+      window.location.href = "index.html";
       return true;
     } else {
       console.log("Неверный email или пароль.");
