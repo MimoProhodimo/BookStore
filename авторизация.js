@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function logout() {
     localStorage.removeItem("loggedInUser");
     alert("Выход выполнен!");
-    window.location.href = "Сайт.html";
+    window.location.href = "index.html";
   }
   if (!isLoggedIn()) {
   }
