@@ -42,7 +42,10 @@
   background-color: #78acc1;
   color: white;
 }
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 .img {
   float: right;
   height: 130px;
