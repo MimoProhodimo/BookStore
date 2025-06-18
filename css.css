@@ -1,3 +1,21 @@
+@media (max-width: 767px) {
+    body {
+        font-size: 14px; 
+    }
+    nav {
+        width: 100%;
+        padding: 10px;
+    }
+    .book-list {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .book-item {
+        width: 80%; /* Занимает 80% ширины экрана */
+        margin-bottom: 20px; /* Добавляем отступ снизу */
+    }
+}
 .topnav {
   background-color: #61678b;
   overflow: hidden;
